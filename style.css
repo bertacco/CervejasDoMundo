@@ -31,6 +31,7 @@ nav {
   top: 0;
   right:0;
   left:0;
+  z-index: 1;
     
 }
 
@@ -116,20 +117,15 @@ nav {
   color: #FFBE0F;
 }
 
-.examples .examples-card {
+.examples-card {
   margin: 10px 10px;
   display: inline-block;
   width: calc(33% - 20px);
-
-}
-
-.examples-card {
   background-color: #555;
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
   overflow: hidden; 
   transition: 0.4s linear all;
-  
 }
 
 .examples-card:hover {
@@ -154,80 +150,32 @@ nav {
   color: #E8970E;
 }
 
-
-/* html, body{
+.classification .conteiner {
+  background-color: rgba(20,20,20,.9);;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+.classification-text-title {
   margin:0;
-  padding:0;
+  font-size: 30px;
+  padding: 20px 20px 0 20px;
+  color: #FFBE0F;
 }
-
-* {
-  box-sizing: border-box;
+.classification-text-title.subtitle {
+  font-size:20px;
+  padding-top:3px;
 }
-
-.cabecalho {
-	margin: 10px;
-	background-color: #aa0000;
-	border-radius: 10px;
-	height: 60px;
-	box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
-	padding-top: 15px;
-	transition: 0.4s linear all;
+.classification-table {
+  background-color:#555;
+  width:calc(100% - 20px);
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
 }
-
-.cabecalho:hover {
-	transform: scale(1.05,1.05);
-  transition: 0.4s linear all;
-}
-
-.cabecalho-titulo {
-margin:0;
-color: white;
-font-size: 30px;
-font-family: "SulSans", sans-serif;
-text-align: center;
-
-}
-
-.card-list .card {
-  margin: 10px 10px;
-  display: inline-block;
-  width: calc(33% - 20px);
-  min-width:300px;
-}
-
-.card {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
-  overflow: hidden; 
-  font-family: "SulSans", sans-serif;
-  transition: 0.4s linear all;
-  
-  a imagem nao arredondava, overflow esconde tudo que extrapola a caixa /
-
-}
-
-.card:hover {
-  transform: scale(1.05,1.05);
-  transition: 0.4s linear all;
+.classification-table thead {
+  background-color:#444;
+  font-size: 20px;
+  padding: 2px 0 2px 0;
+  color: #E8970E;
   
 }
-
-.card img {
-  width:100%;
-}
-
-.card h2, .card p {
-  margin:0;
-  padding:20px;
-}
-
-.card h2 {
-  color: #3e3e3e;
-  padding-bottom:0;
-}
-
-.card p {
-  color: gray;
-}
-*/
