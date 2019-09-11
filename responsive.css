@@ -1,33 +1,102 @@
 @media (max-width: 768px) {
-	.examples-card {
-		margin:5px 0;
-		width: 100%;
+		
+	.header {
+		text-align: center;
 	}
-	
-	.header-title {
-	  padding-left: 15%;
-	  font-size: 25px;
 
-	 }
+	.header-title {
+	  padding: 0%;
+	  font-size: 25px;
+	  
+  }
 	 
-	.intro-text p {
-   font-size: 18px;
-  
-	}
-	
 	.header-menu {
 		margin-top:0;
-		margin-left: 20%;
+		margin-left:0;
 		float: none;
+		text-align: center;
 	}
 
 	.intro .conteiner {
   	margin-top: 125px;
+  	min-height: 200px;
+	}
+
+	.intro-text {
+  	width:100%;
+	}
+
+	.examples .conteiner {
+		padding-bottom: 20px;
+	}
+
+	.examples-card {
+		margin:20px auto;
+		width: 90%;
+		display: block;
+
 	}
 
 	.table-space {
 		width: 100%;
 		overflow: auto;
 	}
+	
+}
 
+@media (max-width: 400px) {
+	
+	.header-title {
+	  font-size: 18px;
+  }
+
+	.header-title-img {
+  	width: 30px;
+  }
+
+	.header-menu ul li a {
+		font-size: 14px;
+		padding:0 5px;
+	}
+	.intro .conteiner {
+		margin-top: 90px;
+		overflow: hidden;
+	}
+	.intro-text {
+		min-height: 200px;
+	}
+	.intro-text-title {
+		font-size: 18px;
+	}
+	.intro-text p {
+  	font-size: 16px;
+	}
+	.examples-text-title {
+  	font-size: 18px;
+	}
+	.classification-text-title {
+		font-size: 18px;
+	}
+	.classification-text-title.subtitle {
+  	font-size:16px;
+	}
+	.classification-table thead {
+  font-size: 18px;
+	}
+
+	.form-text-title {
+		font-size: 18px;
+	}
+	.form-text-title.subtitle {
+  	font-size:16px;
+  }
+
+  input[type="text"], input[type="email"] {
+  	min-width: 250px;
+  }
+
+  .form img {
+  	padding: 10px 20px 0 0;
+  	max-height:100px;
+  }
 }
