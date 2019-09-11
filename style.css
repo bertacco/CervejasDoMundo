@@ -9,6 +9,7 @@ html, body {
   padding:0;
   margin:0;
   background-color: #888888;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -18,6 +19,7 @@ img {
 nav {
   display: block;
 }
+
 
 .conteiner {
   max-width: 980px;
@@ -60,7 +62,7 @@ nav {
 .header-menu ul {
   padding:10px 0 0 0;
   margin:0px;
-  background-color:#333
+  background-color:#333;
   list-style:none;
 }
 .header-menu ul li {
@@ -78,7 +80,7 @@ nav {
 }
 
 .intro .conteiner {
-  height: 600px;
+  min-height: 600px;
   background-image: url("images/belgica.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,6 +150,7 @@ nav {
 
 .examples-card p {
   color: #E8970E;
+  text-align: justify;
 }
 
 .classification .conteiner {

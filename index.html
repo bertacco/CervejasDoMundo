@@ -2,7 +2,9 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
 	<title>Cervejas do Mundo</title>
 </head>
@@ -18,7 +20,7 @@
 			<nav class="header-menu">
 				<ul>
 					<li>
-						<a href="#">BELGAS</a>
+						<a href="#classification">BELGAS</a>
 					</li>
 					<li>
 						<a href="#">INGLESAS</a>
@@ -77,79 +79,81 @@
 
 		</div>
 	</section>	
-	<section class="classification">
+	<section class="classification" id="classification">
 		<div class="conteiner">
 			<h2 class="classification-text-title">CLASSIFICAÇÃO DAS MELHORES</h2>
 			<p class="classification-text-title subtitle">(Na nossa humilde opinião)</p>
-			<table class="classification-table">
-				<thead>
-					<tr>
-						<td>CERVEJA</td>
-						<td>Aparência</td>
-						<td>Aroma</td>
-						<td>Sabor</td>
-						<td>Corpo</td>
-						<td>Balanço</td>
-						<td>Nota Final</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>DELIRIUM TREMENS</td>
-						<td>4,5</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,5</td>
-						<td>4,2</td>
-					</tr>
-					<tr>
-						<td>DUVEL</td>
-						<td>4,5</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,5</td>
-						<td>4,2</td>
-					</tr>
-					<tr>
-						<td>LEFFE BLOND</td>
-						<td>4,5</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>3,5</td>
-						<td>4,5</td>
-						<td>4,1</td>
-					</tr>
-					<tr>
-						<td>ORVAL</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>3,5</td>
-						<td>4,5</td>
-						<td>4,0</td>
-					</tr>
-					<tr>
-						<td>CHIMAY BLEUE</td>
-						<td>4,0</td>
-						<td>3,5</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,5</td>
-						<td>4,0</td>
-					</tr>
-					<tr>
-						<td>LA CHOUFFE BLOND</td>
-						<td>4,0</td>
-						<td>3,5</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>4,0</td>
-						<td>3,9</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="table-space">
+				<table class="classification-table">
+					<thead>
+						<tr>
+							<td>CERVEJA</td>
+							<td>Aparência</td>
+							<td>Aroma</td>
+							<td>Sabor</td>
+							<td>Corpo</td>
+							<td>Balanço</td>
+							<td>Nota Final</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>DELIRIUM TREMENS</td>
+							<td>4,5</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,5</td>
+							<td>4,2</td>
+						</tr>
+						<tr>
+							<td>DUVEL</td>
+							<td>4,5</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,5</td>
+							<td>4,2</td>
+						</tr>
+						<tr>
+							<td>LEFFE BLOND</td>
+							<td>4,5</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>3,5</td>
+							<td>4,5</td>
+							<td>4,1</td>
+						</tr>
+						<tr>
+							<td>ORVAL</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>3,5</td>
+							<td>4,5</td>
+							<td>4,0</td>
+						</tr>
+						<tr>
+							<td>CHIMAY BLEUE</td>
+							<td>4,0</td>
+							<td>3,5</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,5</td>
+							<td>4,0</td>
+						</tr>
+						<tr>
+							<td>LA CHOUFFE BLOND</td>
+							<td>4,0</td>
+							<td>3,5</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>4,0</td>
+							<td>3,9</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</section>
 	<section class="form">
@@ -179,7 +183,5 @@
 			</form>
 		</div>
 	</section>
-
-
 </body>
 </html>
