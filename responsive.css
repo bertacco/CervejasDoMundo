@@ -24,6 +24,11 @@
 
 	.intro-text {
   	width:100%;
+  	min-height: 200px;
+	}
+
+	.intro-text p {
+  	font-size: 20px;
 	}
 
 	.examples .conteiner {
